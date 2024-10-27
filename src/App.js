@@ -34,7 +34,7 @@ function App() {
     });
 
 
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="App">

@@ -20,7 +20,7 @@ import {
           ...state,
           products: actions.products,
         };
-        break;
+       
       case Add_cart:
         let flag = state.cart.indexOf(actions.cart);
         if (flag!==-1) {
@@ -34,7 +34,7 @@ import {
             cart: [actions.cart, ...state.cart],
           };
         }
-        break;
+        
   
       case Product_view:
         return {

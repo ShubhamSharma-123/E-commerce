@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ProductToview, addproducts, addCart, DeleteCart, CartItems } from "../actions";
+import { ProductToview, addproducts, addCart, CartItems } from "../actions";
 import { useNavigate } from "react-router-dom";
 import customFetch from "../apiCall";
 import { ToastContainer } from "react-toastify";

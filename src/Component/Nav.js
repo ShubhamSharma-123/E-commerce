@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -11,9 +11,9 @@ return (
       style={style.nav}
     >
       <div className="container-fluid">
-        <a className="navbar-brand fs-3" href="#" style={style.navHead}>
+        <Link className="navbar-brand fs-3" to='/' style={style.navHead}>
           E-commerce
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
